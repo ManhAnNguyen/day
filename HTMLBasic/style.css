@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.table-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-container table thead {
+  background-color: aquamarine;
+}
+.table-container table thead tr th {
+  padding: 10px 20px;
+  color: white;
+  text-align: left;
+}
+.table-container table tbody tr {
+  border: 1px solid rgb(214, 214, 214);
+}
+.table-container table tbody tr td {
+  padding: 10px 20px;
+  color: blue;
+  text-align: left;
+}
+
+.image-container {
+  width: 1200px;
+  overflow: hidden;
+  height: 200px;
+}
+.image-container img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.box-sizing {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: red;
+  border: 1px solid blue;
+}
